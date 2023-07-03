@@ -1,0 +1,9 @@
+<h1>All products</h1>
+{% for product in products_list %}
+<ul>
+  <li>Name: {{ product.name }}</li>
+  <li>Subtitle: {{ product.subtitle }}</li>
+  <li>Author: {{ product.author }}</li>
+  <li>Price: {{ product.price }}</li>
+</ul>
+{% endfor %}
